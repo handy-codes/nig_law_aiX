@@ -52,7 +52,7 @@ def chat_interface():
         if msg["role"] == "user":
             st.markdown(f"**You:** {msg['content']}")
         else:
-            st.markdown(f"**LegalBot:** {msg['content']}")
+            st.markdown(f"**JuristAI:** {msg['content']}")
 
 
 

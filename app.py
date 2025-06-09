@@ -7,7 +7,8 @@ from modules.law_search import law_search_ui
 from modules.query_builder import query_builder_ui
 
 # -------------------- CONFIG --------------------
-st.set_page_config(page_title="Naija Legal AI Assistant", page_icon="techxos_favicon.ico", layout="wide")
+# st.set_page_config(page_title="Naija Legal AI Assistant", page_icon="techxos_favicon.ico", layout="wide")
+st.set_page_config(page_title="Naija Legal AI Assistant", layout="wide")
 st.title("Nigeria's no. 1 Legal AI Platform")
 
 
